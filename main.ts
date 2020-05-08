@@ -282,6 +282,5 @@ tiles.setTilemap(tiles.createTilemap(
             [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8],
             TileScale.Sixteen
         ))
-scene.setTile(3, myTiles.tile4, true)
 mySprite.ay = 350
 scene.cameraFollowSprite(mySprite)
